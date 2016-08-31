@@ -9807,7 +9807,7 @@ It also injects some default html for it if none is found (and styles it for the
       }
 
       // clean any remaining references in the end index
-      // we do this seperate from the above check because they might not be in the same order
+      // we do this separate from the above check because they might not be in the same order
       if ( byEnd[ idx ] && byEnd[ idx ]._natives && byEnd[ idx ]._natives.type === name ) {
 
         byEnd.splice( idx, 1 );
