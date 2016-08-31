@@ -2484,7 +2484,7 @@ Markdown.dialects.Maruku.inline[ "{:" ] = function inline_meta( text, matches, o
     return [ 2, "{:" ];
   }
 
-  // get the preceeding element
+  // get the preceding element
   var before = out[ out.length - 1 ];
 
   if ( typeof before === "string" ) {
@@ -2499,7 +2499,7 @@ Markdown.dialects.Maruku.inline[ "{:" ] = function inline_meta( text, matches, o
     return [ 2, "{:" ];
   }
 
-  // attach the attributes to the preceeding element
+  // attach the attributes to the preceding element
   var meta = this.dialect.processMetaHash( m[ 1 ] ),
       attr = extract_attr( before );
 
