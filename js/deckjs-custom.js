@@ -343,7 +343,7 @@ that use the API provided by core.
     /*
     This event fires at the beginning of a slide change, before the actual
     change occurs. Its purpose is to give extension authors a way to prevent
-    the slide change from occuring. This is done by calling preventDefault
+    the slide change from occurring. This is done by calling preventDefault
     on the event object within this event. If that is done, the deck.change
     event will never be fired and the slide will not change.
     */
