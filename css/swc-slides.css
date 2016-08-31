@@ -439,7 +439,7 @@ a:hover, a:focus {
   background-size: 150px;
 }
 .deck-container .slide :not(h1):not(h2) {
-  /* TODO: the original style mispelled the font name, so it was using Helvetica for everything but the titles, this line does the same. */
+  /* TODO: the original style misspelled the font name, so it was using Helvetica for everything but the titles, this line does the same. */
   font-family: 'Helvetica', 'Arial', 'sans';
 }
 
