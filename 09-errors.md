@@ -347,7 +347,7 @@ us_state_capitals = {
     'massachusetts': 'boston'
 }
 
-print "The capital of Massachusetts is: " + us_state_capitals['massachussetts']
+print "The capital of Massachusetts is: " + us_state_capitals['massachusetts']
 ~~~
 ~~~ {.error}
 ---------------------------------------------------------------------------
@@ -355,9 +355,9 @@ KeyError                                  Traceback (most recent call last)
 <ipython-input-13-ae1dac4c6a45> in <module>()
       6 }
       7 
-----> 8 print "The capital of Massachusetts is: " + us_state_capitals['massachussetts']
+----> 8 print "The capital of Massachusetts is: " + us_state_capitals['massachusetts']
 
-KeyError: 'massachussetts'
+KeyError: 'massachusetts'
 ~~~
 
 ## File Errors
