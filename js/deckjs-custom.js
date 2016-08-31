@@ -1290,7 +1290,7 @@ Markdown.prototype.split_blocks = function splitBlocks( input, startLine ) {
  * Process `block` and return an array of JsonML nodes representing `block`.
  *
  * It does this by asking each block level function in the dialect to process
- * the block until one can. Succesful handling is indicated by returning an
+ * the block until one can. Successful handling is indicated by returning an
  * array (with zero or more JsonML nodes), failure by a false value.
  *
  * Blocks handlers are responsible for calling [[Markdown#processInline]]
