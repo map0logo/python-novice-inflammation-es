@@ -347,7 +347,7 @@ us_state_capitals = {
     'massachusetts': 'boston'
 }
 
-print "The capital of Massachusetts is: " + us_state_capitals['massachussetts']
+print "The capital of Massachusetts is: " + us_state_capitals['massachusetts']
 ~~~
 ~~~ {.error}
 ---------------------------------------------------------------------------
@@ -355,9 +355,9 @@ KeyError                                  Traceback (most recent call last)
 <ipython-input-13-ae1dac4c6a45> in <module>()
       6 }
       7 
-----> 8 print "The capital of Massachusetts is: " + us_state_capitals['massachussetts']
+----> 8 print "The capital of Massachusetts is: " + us_state_capitals['massachusetts']
 
-KeyError: 'massachussetts'
+KeyError: 'massachusetts'
 ~~~
 
 ## File Errors
@@ -421,7 +421,7 @@ IOError: File not open for reading
 > 1.  How many levels does the traceback have?
 > 2.  What is the file name where the error occurred?
 > 3.  What is the function name where the error occurred?
-> 4.  On which line number in this function did the error occurr?
+> 4.  On which line number in this function did the error occur?
 > 5.  What is the type of error?
 > 6.  What is the error message?
 > 

@@ -343,7 +343,7 @@ that use the API provided by core.
     /*
     This event fires at the beginning of a slide change, before the actual
     change occurs. Its purpose is to give extension authors a way to prevent
-    the slide change from occuring. This is done by calling preventDefault
+    the slide change from occurring. This is done by calling preventDefault
     on the event object within this event. If that is done, the deck.change
     event will never be fired and the slide will not change.
     */
@@ -1290,7 +1290,7 @@ Markdown.prototype.split_blocks = function splitBlocks( input, startLine ) {
  * Process `block` and return an array of JsonML nodes representing `block`.
  *
  * It does this by asking each block level function in the dialect to process
- * the block until one can. Succesful handling is indicated by returning an
+ * the block until one can. Successful handling is indicated by returning an
  * array (with zero or more JsonML nodes), failure by a false value.
  *
  * Blocks handlers are responsible for calling [[Markdown#processInline]]
@@ -2487,7 +2487,7 @@ Markdown.dialects.Maruku.inline[ "{:" ] = function inline_meta( text, matches, o
     return [ 2, "{:" ];
   }
 
-  // get the preceeding element
+  // get the preceding element
   var before = out[ out.length - 1 ];
 
   if ( typeof before === "string" ) {
@@ -2502,7 +2502,7 @@ Markdown.dialects.Maruku.inline[ "{:" ] = function inline_meta( text, matches, o
     return [ 2, "{:" ];
   }
 
-  // attach the attributes to the preceeding element
+  // attach the attributes to the preceding element
   var meta = this.dialect.processMetaHash( m[ 1 ] ),
       attr = extract_attr( before );
 
@@ -2573,7 +2573,7 @@ function extract_attr( jsonml ) {
  *
  *  The options currently understood are:
  *
- *  - root (Boolean): wether or not the root node should be included in the
+ *  - root (Boolean): whether or not the root node should be included in the
  *    output, or just its children. The default `false` is to not include the
  *    root itself.
  */
@@ -7153,7 +7153,7 @@ This module provides a support for managed svg inclusion (allowing proper DOM ac
                 var SVG = createSVG(obj, attributes);
                 $(obj).replaceWith(SVG);
                 
-                // Finaly load the SVG data
+                // Finally load the SVG data
                 event.lockInit();
 
                 var notDisabled = function(k) {
