@@ -7132,7 +7132,7 @@ This module provides a support for managed svg inclusion (allowing proper DOM ac
                 var SVG = createSVG(obj, attributes);
                 $(obj).replaceWith(SVG);
                 
-                // Finaly load the SVG data
+                // Finally load the SVG data
                 event.lockInit();
 
                 var notDisabled = function(k) {
